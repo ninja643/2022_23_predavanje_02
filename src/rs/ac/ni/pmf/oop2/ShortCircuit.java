@@ -2,25 +2,25 @@ package rs.ac.ni.pmf.oop2;
 
 public class ShortCircuit
 {
-	static boolean test1(int val)
+	static boolean test1(int value)
 	{
-		System.out.println("test1(" + val + ")");
-		System.out.println("result: " + (val < 1));
-		return val < 1;
+		System.out.println("test1(" + value + ")");
+		System.out.println("result: " + (value < 1));
+		return value < 1;
 	}
 
-	static boolean test2(int val)
+	static boolean test2(int value)
 	{
-		System.out.println("test2(" + val + ")");
-		System.out.println("result: " + (val < 2));
-		return val < 2;
+		System.out.println("test2(" + value + ")");
+		System.out.println("result: " + (value < 2));
+		return value < 2;
 	}
 
-	static boolean test3(int val)
+	static boolean test3(int value)
 	{
-		System.out.println("test3(" + val + ")");
-		System.out.println("result: " + (val < 3));
-		return val < 3;
+		System.out.println("test3(" + value + ")");
+		System.out.println("result: " + (value < 3));
+		return value < 3;
 	}
 
 	public static void main(String[] args)
